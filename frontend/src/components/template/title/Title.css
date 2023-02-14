@@ -1,0 +1,17 @@
+.page-title h1{
+    margin: 0;
+    font-size: 2rem;
+}
+.page-title h1 i{
+    margin-right: 10px;   
+}
+
+.page-title h2{
+    color: #777;
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
+.page-title{
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 20px;
+}

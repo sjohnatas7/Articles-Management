@@ -1,0 +1,10 @@
+.articles-by-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.articles-by-category .load-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}

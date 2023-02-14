@@ -1,0 +1,19 @@
+.auth-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.auth-modal {
+    background: #fff;
+    width: 350px;
+    padding: 35px;
+    box-shadow: 0 1px 5px  rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,46 @@
+header{
+    grid-area: header;
+    background: linear-gradient(to right, #1e469a, #49a7c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    
+    text-align: center;
+    display: block;
+    flex-grow: 1;
+    
+    font-weight: 100;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.title:hover{
+    color: #fff;
+}
+
+header > a.toggle{
+    width: 60px;
+    height: 100%;
+    color: #fff;
+    justify-self: flex-start;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header > a.toggle:hover{
+    background: rgba(0,0,0,0.2);
+}
+header > a.toggle i {
+    transition: transform 0.2s ease-in-out;
+}
+
+header > a.toggle i.down{
+    transform: rotate(-90deg);
+}

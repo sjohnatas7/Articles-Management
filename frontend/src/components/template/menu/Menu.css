@@ -1,0 +1,18 @@
+.menu {
+    grid-area: menu;
+    background: linear-gradient(to right, #232523, #414345);
+    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.menu.menu-visible{
+    display: none;
+}
+.menu .node, .menu .node:hover {
+    color: #fff;
+}
+
+.menu .MuiTreeItem-content:hover, .menu .Mui-selected, .menu .Mui-focused {
+    background: rgba(255, 255, 255, 0.2);
+}
