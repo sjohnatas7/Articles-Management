@@ -22,7 +22,6 @@ export default function () {
         axios.get(url).then(res => { setTree(res.data), console.log(res.data) })
     }, [])
     const renderTree = (nodes: RenderTree) => {
-        console.log(nodes)
         return (
             <Link to={`/categories/${nodes.id}/articles`} style={{ textDecoration: 'none' }}>
                 <TreeItem key={nodes.name} nodeId={nodes.name} label={nodes.name} className="node"
